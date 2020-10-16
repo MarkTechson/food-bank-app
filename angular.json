@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "food-bank-app"
+    }
+  },
+  "defaultProject": "food-bank-app",
+  "cli": {
+    "analytics": false
+  }
 }
