@@ -6,15 +6,11 @@ import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
   styleUrls: ['./food-bank-location.component.css']
 })
 export class FoodBankLocationComponent implements OnInit {
-
   @Input() details;
   @Output() detailsChange = new EventEmitter();
 
   constructor() { }
 
-  notifyDetailsChange() {
-    this.detailsChange.emit(this.details);
-  }
   ngOnInit(): void {
   }
 }
